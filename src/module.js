@@ -1,0 +1,1 @@
+console.log('module added', 123);

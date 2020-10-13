@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome server</title>
+</head>
+<body>
+    Index page
+    <button onclick="handleClick()">save img</button>
+
+    <script>
+        function handleClick(ev) {
+            fetch('cat1.png')
+                .then(r => r.toJson())
+                .then(console.log)
+
+        }
+    </script>
+</body>
+</html>
